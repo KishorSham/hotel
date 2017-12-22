@@ -1,0 +1,245 @@
+/* sub nav */
+.sub-nav {
+	width: 100%;
+	height: 56px;
+	position:absolute;
+	top: 0px;
+	z-index: +1;
+	background-color: #ffffff;
+}
+
+.sub-nav ul {
+	float: right;
+}
+
+.sub-nav ul li {
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+}
+
+.sub-nav ul li:hover, .sub-nav ul li.active  {
+	border-bottom-color: #333;
+}
+
+.sub-nav ul li a {
+	color: #707070;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 52px;
+	letter-spacing: .1em;
+}
+
+.sub-nav ul li a i {
+	margin-right: 4px;
+}
+
+.sub-nav ul > li.booking {
+	border: none !important;
+	padding: 8px 0;
+}
+
+.sub-nav ul > li.booking a {
+	color: #ffffff;
+	background-color: #555555;
+	line-height: 40px;
+	padding: 0 20px;
+	display: inline-block;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	font-size: 14px;
+}
+
+.sub-nav ul > li.booking a:hover {
+	background-color: #707070;
+}
+
+/* nav */
+.nav { 
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 1px solid #eeeeee;
+	box-sizing: border-box;
+	position: absolute;
+	top: 56px;
+}
+
+.nav .container {
+	box-sizing: border-box;
+	padding-left: 208px;
+	padding-right: 12px;
+	overflow: visible;
+	text-align: right;
+}
+
+.nav a {
+	color: #707070;
+	display: block;
+}
+
+.nav a:hover {
+	color: #000000;
+}
+
+.nav ul {
+	text-align: right;
+	border-top: 1px solid #f1f1f1;
+	display: inline-block;
+}
+
+.nav ul li {
+	font-size: 16px;
+	color: #707070;
+}
+
+.nav ul > li {
+	display: inline-block;
+	line-height: 72px;
+	padding: 0 12px;
+	position: relative;
+}
+
+.nav ul > li:last-child {
+	padding-right: 0px;
+}
+
+.nav ul > li > div {
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+.nav ul > li:hover > div, .nav ul > li.active > div {
+	border-bottom-color: #333;
+}
+
+.nav ul > li.booking {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	padding: 0px;
+}
+
+.nav ul > li .nav-child {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	padding: 0 10px 10px 10px;
+	top: 50px;
+	z-index: 9998;
+	overflow: hidden;
+    -webkit-transition: top .25s ease, opacity .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+.nav ul > li .nav-child ul {
+	width: 305px;
+	background-color: #ffffff;
+	padding-top: 10px;
+	box-shadow: 0 0 7px 0 #bbbbbb;
+	box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+	display: inline-block;
+}
+
+.nav ul > li:hover .nav-child {
+	top: 80px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.nav ul > li ul {
+	text-align: left;
+}
+
+.nav ul > li ul li {
+	display: block;
+	padding: 0;
+	margin: 0 30px;
+	line-height: 40px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.nav ul > li ul li:last-child:not(.promo) {
+	margin-bottom: 14px;
+}
+
+/* nav promo */
+.nav ul > li ul li.promo {
+	margin: 0px;
+	margin-top: 14px;
+}
+
+.nav ul > li ul li.promo .image-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.nav ul > li ul li.promo .image-container img {
+	width: 100%;
+}
+
+.nav ul > li ul li.promo .image-container span.more-info {
+	color: #fff;
+	position: absolute;
+	right: 9px;
+	top: 9px;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.nav ul > li ul li.promo .image-container span.more-info i {
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.nav ul > li ul li.promo a.promo-link {
+	padding: 0 30px;
+}
+
+.nav ul > li ul li.promo .promo-hover { 
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	opacity: 0;
+	z-index: +1;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+}
+
+.nav ul > li ul li.promo .promo-hover a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.nav ul > li ul li.promo .promo-hover a span {
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #fff;
+	padding: 6px;
+	line-height: 160px;
+}
+
+.nav ul > li ul li.promo .image-container:hover .promo-hover {
+	opacity: 1;
+}
+
+.nav ul > li ul li.promo .image-container:hover .more-info {
+	display: none;
+}
+	

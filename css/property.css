@@ -1,0 +1,80 @@
+/* property css */
+.sub-nav ul > li.booking a {
+	background-color: #8bb661 !important;
+
+}
+
+.sub-nav ul > li.booking a:hover {
+	background-color: #648543 !important;
+}
+
+.nav ul > li:hover > div, .nav ul > li.active > div, .sub-nav ul > li:hover {
+	border-bottom-color: #8bb661 !important;
+}
+
+#secondary-nav dl a.selected, #secondary-nav dl a:hover {
+	border-bottom-color: #8bb661;
+}
+
+#content .intro h2 {
+	color: #8bb661;
+}
+
+#content a {
+	color: #8bb661;
+}
+
+.toolbox a.button {
+	color: #8bb661;
+	border-color: #8bb661;
+}
+
+.toolbox a.button:hover {
+	background-color: #8bb661;
+}
+
+.newsletter-wrap input[type="submit"] {
+	background-color: #8bb661;
+}
+
+.newsletter-wrap input[type="submit"]:hover {
+	background-color: #648543;
+}
+a.btnCheckRates {
+    color: #8bb661;
+    border: 1px solid #8bb661;
+}
+a.btnCheckRates:hover {
+	background-color: #8bb661;
+}
+
+.btn-prop { 
+  color: #ffffff !important;
+  background-color: #8bb661 !important;
+  line-height: 40px;
+  display: inline-block;
+  transition: all .2s;
+  -webkit-transition: all .2s;
+  font-size: 14px;
+  border: none !important;
+  padding: 0 40px;
+
+}
+
+.btn-prop:hover {
+  background-color: #648543 !important;
+}
+
+.alert-bar a {
+color: #ffffff !important;
+}
+
+.learn-more { 
+  background-color: #ffffff !important;
+  color: #707070 !important;
+}
+
+.learn-more:hover { 
+  background-color: #dcdbdb !important;
+  color: #707070 !important;
+}

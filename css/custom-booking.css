@@ -1,0 +1,154 @@
+div#bookingengine * {font-family:Arial, Helvetica, sans-serif;}
+
+
+#booking a {color: #C5CB69;}
+
+
+div#bookingengine #datesselection fieldset { 
+	width:100%; 
+	border:none; 
+}
+
+div#bookingengine #datesselectioncontent { margin:0; }
+
+div#bookingengine { 
+	margin:0 auto; 
+	padding:0px; 
+	font-size:12px; 
+	color: #fff;
+	width:687px; 
+	height: 595px; 
+	padding: 24px 27px;
+	background: url('../../img/booking/booking_bg.png'); 
+}
+
+
+div#bookingengine h1 {text-transform: uppercase; font-size: 24px; font-weight: normal; margin-top: 1em; display: block;}
+
+div#datesselection span.instructions {width:248px; display: block; margin: 1em 0; line-height: 1.4;}
+
+/* --- buttons --- */
+div#bookingengine #buttons { float:left; border-top: 1px solid #fff; margin: 1em 0 0 0; padding: 2em 0 0 0; width: 248px; }
+div#bookingengine #buttons ul li { float:left; }
+div#bookingengine #buttons ul li form fieldset button { padding:4px 0 0 4px; border:none; }
+div#bookingengine #multistay fieldset div div.roomstays table tr td.stayselect form fieldset button.buttonactive span.buttoncontent  {border:none; font-size:15px;}
+div#bookingengine #buttons ul li form fieldset button.buttonactive span.buttoncontent span.buttoncontentli { color:#00cc00; }
+/* --- buttons --- */
+
+div#bookingengine  #buttonwrap {width: 248px; display: block; text-align: center; }
+div#bookingengine #buttonwrap  button {border:none; width: 100%; height: 32px; margin-bottom: 1em; text-transform: uppercase; background: #C5CB69 url('../../img/booking/check_availability.gif'); color: #fff; font-weight: bold;}
+/* Neg Link */
+p#neglink { display: none; }
+p#NegCodeButton { display: block; color:#fff; font-size:10px; letter-spacing:0; background:#695E4C ; padding:0; border:none; text-transform: uppercase;
+cursor:pointer; text-align: left; float: left; margin-right: 0px; height:32px; overflow: hidden; width: 100%; margin-bottom: 1em; font-weight: bold; }
+
+p#NegCodeButton a { text-decoration: none; color:#fff; font-size:11px; display: block; margin-top: 9px; text-align: center;}
+div#buttons button { height: 32px; width:100%; background:#695E4C; border:none; color: #fff; font-weight: bold;}	
+
+
+div#bookingengine #buttons button { background:#695E4C; border: none; padding: 3px; cursor: pointer;}
+
+
+div#bookingengine #summarywrapper { width: 250px; float: left; }
+
+/* --- calendars --- */
+div#bookingengine #calendars { margin:-111px 0 0 0; width:400px; border-bottom:none; line-height:100%; float: right;}
+div#bookingengine #calendars table { float:left; background:none; border-collapse:collapse; border:none; cursor:default; text-transform: uppercase; width:100%; }
+div#bookingengine #calendars table.calendarleft { margin:0; }
+div#bookingengine #calendars table.calendarright { margin:0; }
+div#bookingengine #calendars table tr.calendarheader .calendarheadertitle { height:26px; padding:0 0 8px 0; vertical-align:middle; text-align:center; background:none; font-size:14px; font-weight:normal; }
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea { height:26px; padding:2px 0; vertical-align:middle; text-align:center; background:none; }
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea fieldset { border:none; text-align:center; }
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea fieldset button { padding:1px 4px; background-color:#ffffff; cursor:pointer; position: relative; height: 12px; width: 26px; text-indent: -9999em; 
+background: url('../../img/booking/arrows.png'); border: none;}
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea fieldset button.blocksprevious {background-position: 0 0; top:-32px; left:170px;  }
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea fieldset button.blocksprevious:hover {background-position: -26px 0px;}
+ 
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea fieldset button.blocksnext { background-position: 0 -12px; bottom: -247px; left:-170px;   }
+div#bookingengine #calendars table tr.calendarheader .calendarheaderarea fieldset button.blocksnext:hover {background-position: -26px -12px;}
+
+div#bookingengine #calendars table tr .weekend { height:16px; padding:10px 0; vertical-align:middle; text-align:center; background:none; font-weight:normal; font-size:11px; }
+div#bookingengine #calendars table tr .weekday { height:16px; padding:10px 0; vertical-align:middle; text-align:center; background:none; font-weight:normal; font-size:11px; }
+div#bookingengine #calendars table tr .notcurrentblock, #calendars table tr .pastday, #calendars table tr .available, #calendars table tr .notavailable, #calendars table tr .minimumstay, #calendars table tr .userselected { xpadding:6px 5px; padding: 0; margin: 0; width:35px; height:35px; border:none; font-size:25px; }
+div#bookingengine #calendars table tr div.date {text-align: center;line-height: 97%; width:100%;}
+div#bookingengine #calendars table tr div.ldr {line-height: 100%; display: none;}
+div#bookingengine #calendars table tr .notcurrentblock div { visibility:hidden; }
+div#bookingengine #calendars table tr .pastday div.date { color:#00273F; text-decoration:none; }
+div#bookingengine #calendars table tr .available div.date { color:#fff; }
+div#bookingengine #calendars table tr .available div.date, div#bookingengine #calendars table tr .minimumstay div.date, div#bookingengine #calendars table tr .userselected div.date { font-weight:normal; }
+div#bookingengine #calendars table tr div.ldr { text-align:right; margin-top:3px; color:#333333; }
+div#bookingengine #calendars table tr td.available, div#bookingengine #calendars table tr td.minimumstay, div#bookingengine #calendars table tr td.userselected { cursor:pointer; }
+div#bookingengine #calendars .minimumstay { background-color:#ff9900; }
+div#bookingengine #calendars .userselected {background: none;}
+div#bookingengine #calendars .userselected div { background-color:#fff; color: #0A314F; }
+div#bookingengine #calendars .notavailable { background-color:#ff0000; }
+div#bookingengine #calendars dl { margin:4px 0 0 0; float:left; }
+div#bookingengine #calendars dl dt { float:left; border:1px solid #000000; }
+div#bookingengine #calendars dl dd { float:left; margin:0 35px 0 3px; }
+div#bookingengine #calendars div#calendarsreset { float:right;  background: none;  width:100px; cursor:pointer; }
+div#bookingengine #calendars div#calendarsreset:after {content: "Reset Calendar"; font-size: 10px;} 
+div#bookingengine #calendars div#calendarsreset img {display: none;}
+div#bookingengine #calendars div.clear { height:8px; }
+
+div#bookingengine #calendars table tr td {margin: 0; padding: 0;}
+/* --- calendars --- */
+
+/* --- controls --- */
+div#bookingengine #controls { margin:0px; float: none; width:248px; }
+div#bookingengine #controls form fieldset { border:none; }
+div#bookingengine #controls form {width: 248px;}
+div#bookingengine #controls table {width:248px;}
+div#bookingengine #controls table tr {display: block; padding: 0 0 1em 0;}
+div#bookingengine #controls table tr td {text-align: left; width: 63px; padding-right:9px; font-size: 11px;}
+div#bookingengine #controls form fieldset table { width:100%; }
+div#bookingengine #controls form fieldset table tr td { padding:2px; }
+div#bookingengine #controls form fieldset table tr td label { margin-right:10px; }
+div#bookingengine #controls form fieldset table tr td.pdpromocode, div#bookingengine #controls form fieldset table tr td.pdadults, div#bookingengine #controls form fieldset table tr td.pdrateplan, div#bookingengine #controls form fieldset table tr td.information, div#bookingengine #controls form fieldset table tr td.pdrooms  { padding-left:30px; }
+div#bookingengine #controls form fieldset table tr td.pdchildren { text-align:right; }
+div#bookingengine #controls form fieldset table tr td.pdchildren label { margin-right:0; }
+div#bookingengine #controls form fieldset table tr td.pdchildrenselect { text-align:right; }
+div#bookingengine #controls form fieldset table tr td #pdchildren { margin-right:1px; }
+div#bookingengine #controls form fieldset table tr td #pdpromocode { width:96%; }
+div#bookingengine #controls form fieldset table tr td.pdrooms label{ font-weight: bold;}
+div#bookingengine #controls form fieldset table tr td button { padding:4px 8px; background-color:#00cc00; background-image:url('../bpimages/buttonbackground.jpg'); border:1px solid #000000; width:100%; }
+div#bookingengine #controls form fieldset table tr td button span.buttoncontent { font-size:15px; letter-spacing:0.5px; font-weight:bold; color:#ffffff; }
+div#bookingengine #controls form fieldset table tr td#controlssummary { vertical-align:top; }
+div#bookingengine #controls form fieldset table tr td#controlssummary div p { float:left; padding:7px; width:85%; background-color:#00cc00; border:1px solid #000000; }
+div#bookingengine #controls form fieldset table tr td#controlssummary div img { float:left; margin-top:4px; display: none; }
+div#bookingengine #controlssummary img { display: none; }
+
+div#bookingengine #controls form fieldset table tr td.pdmultiroomnotice { padding-left: 30px; font-size: 11px; }
+
+div#bookingengine td#booking-summary {width:248px!important;}
+div#bookingengine #controlssummary { color: #C5CB69; xpadding: 5px; font-style: italic; float: none; height: 20px;}
+div#bookingengine #controlssummary p {line-height: 2; font-size:.85em;}
+
+#pdpromocode {width: 176px; }
+#pdrateplan {width: 176px;}
+#pdcheckindd, #pdcheckoutdd {margin-left: 27px; width: 47px;}
+#pdchildren {margin-left:15px; width: 47px;}
+div#bookingengine #controls table tr td.childrentd {left: 10px;}
+#pdadults {margin-left: 23px; width: 47px;}
+
+/* --- controls --- */
+
+#respolicylinkreg a {font-size: 10px; color: #C5CB69;}
+
+select {overflow: hidden;}
+
+
+/* --- languages --- */
+div#bookingengine #languages { float:left; }
+div#bookingengine #languages select {width: 160px;}
+div#bookingengine #languages form fieldset button { 
+	background-color:none; 
+	border: none; 
+	background-image: url('../../img/booking/language_arrow.gif'); 
+	width: 18px;
+	height: 18px; 
+	margin-left:2px; 
+	padding:0;
+	text-indent: -9999em;
+}
+/* --- languages --- */
+
