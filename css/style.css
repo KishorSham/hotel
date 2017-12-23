@@ -2677,3 +2677,23 @@ bootstrap.min.css:5 {
 h3{
 font-size: 16px;
 }
+
+
+.modal {
+    margin-top: 8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1058;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+
+.close{
+color: #fff;
+}

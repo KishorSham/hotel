@@ -212,7 +212,7 @@
     
     padding: 0;
     color: #ffffff;
-    font-size: 70px;
+    font-size: 50px;
     font-style: normal;
     line-height: 84px;
     margin-bottom: 30px;
@@ -232,6 +232,19 @@
     -webkit-animation-delay: 1.1s;
     animation-delay: 1.1s;
 }
+
+.slide-text > span {
+    padding: 0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    -webkit-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+
 .slide-text > a.btn-default{
     color: #000;
     font-weight: 400;
