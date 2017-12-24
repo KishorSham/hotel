@@ -130,7 +130,7 @@ header#first hgroup {
 }
 
 header#first hgroup .logo {
-	background-image:url(../img/logo.jpg);
+	background-image:url(../img/logo,png);
 	background-repeat:no-repeat;
 	color:#EAE8D5;
 	display:block;
